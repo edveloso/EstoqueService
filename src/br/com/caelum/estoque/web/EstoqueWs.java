@@ -22,12 +22,12 @@ public class EstoqueWs {
 	
 	public EstoqueWs() {
 		super();
-		repo.put("ARQ", new ItemEstoque("tdd",2));
-		repo.put("SOA", new ItemEstoque("res",5));
-		repo.put("TDD", new ItemEstoque("log",256));
-		repo.put("RES", new ItemEstoque("log",256));
-		repo.put("LOG", new ItemEstoque("log",256));
-		repo.put("WEB", new ItemEstoque("log",256));
+		repo.put("ARQ", new ItemEstoque("ARQ",100));
+		repo.put("SOA", new ItemEstoque("SOA",200));
+		repo.put("TDD", new ItemEstoque("TDD",300));
+		repo.put("RES", new ItemEstoque("RES",400));
+		repo.put("LOG", new ItemEstoque("LOG",500));
+		repo.put("WEB", new ItemEstoque("WEB",600));
 	}
 	
 	
