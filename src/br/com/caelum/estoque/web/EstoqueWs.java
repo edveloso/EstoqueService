@@ -42,6 +42,7 @@ public class EstoqueWs {
 		
 		List<ItemEstoque> items = new ArrayList<>();
 		
+		if(null != codigos)
 		for (String codigo : codigos) {
 		  items.add(repo.get(codigo));
 		}
